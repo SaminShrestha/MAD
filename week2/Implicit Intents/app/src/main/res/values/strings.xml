@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Implicit Intents</string>
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="open_website">Open Website</string>
+    <string name="text_view">TextView</string>
+    <string name="open_location">Open Location</string>
+    <string name="textview">TextView</string>
+    <string name="http_developer_android_com">http://developer.android.com</string>
+    <string name="golden_gate_bridge">Golden Gate Bridge</string>
+    <string name="twas_brillig_and_the_slithy_toves">\'Twas brillig and the slithy toves</string>
+</resources>
