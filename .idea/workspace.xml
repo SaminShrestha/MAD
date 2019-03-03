@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27d787db-76f7-4a7f-9a80-ee6dd9049aeb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/week1/scrolling text/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week1/scrolling text/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/scrolling text/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week1/scrolling text/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week1/scrolling text/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week1/scrolling text/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Two Activity Modified/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Two Activity Modified/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Two Activity Modified/.idea/caches/gradle_models.ser" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Two Activity Modified/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Two Activity Modified/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Two Activity Modified/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Two Activity Modified/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Two Activity Modified/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Two Activity Modified/app/src/main/java/com/example/twoactivitymodified/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Two Activity Modified/app/src/main/java/com/example/twoactivitymodified/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/Two Activity/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/week2/Two Activity/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="603359738">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27d787db-76f7-4a7f-9a80-ee6dd9049aeb" name="Default Changelist" comment="" />
+      <created>1551576903024</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551576903024</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32962668" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>
