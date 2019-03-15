@@ -1,9 +1,10 @@
-package com.example.moviemanager.Activities;
+package com.example.moviemanager.activities;
 
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -15,8 +16,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.example.moviemanager.Fragments.NowPlaying;
 import com.example.moviemanager.R;
+import com.example.moviemanager.fragments.NowPlayingFragment;
+import com.example.moviemanager.fragments.UpcomingFragment;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -28,14 +30,6 @@ public class MainActivity extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
-            }
-        });
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -45,6 +39,7 @@ public class MainActivity extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+        showFragment(NowPlayingFragment.class);
     }
 
     @Override
@@ -87,17 +82,13 @@ public class MainActivity extends AppCompatActivity
 
         Class fragment = null;
 
-
-        if (id == R.id.nav_now_playing) {
-            fragment = NowPlaying.class;
+        if (id == R.id.nav_now_palying) {
+            fragment = NowPlayingFragment.class;
             showFragment(fragment);
-
-        } else if (id == R.id.nav_manage) {
-            fragment = NowPlaying.class;
+        } else if (id == R.id.nav_upcoming) {
+            fragment = UpcomingFragment.class;
             showFragment(fragment);
-        }
-
-        else if (id == R.id.nav_log_out) {
+        } else if (id == R.id.nav_logout) {
 
         }
 
@@ -107,18 +98,19 @@ public class MainActivity extends AppCompatActivity
     }
 
     private void showFragment(Class fragmentClass) {
-            Fragment fragment = null;
-            try {
-                fragment = (Fragment) fragmentClass.newInstance();
 
-            } catch (IllegalAccessException e) {
-                e.printStackTrace();
-            } catch (InstantiationException e) {
-                e.printStackTrace();
-            }
-        FragmentManager fragmentManager = getSupportFragmentManager();
-        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
+        Fragment fragment = null;
+        try {
+            fragment = (Fragment)fragmentClass.newInstance();
+        } catch (IllegalAccessException e) {
+            e.printStackTrace();
+        } catch (InstantiationException e) {
+            e.printStackTrace();
         }
 
-    }
+        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction()
+                .replace(R.id.flContent, fragment).commit();
 
+    }
+}
